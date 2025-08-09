@@ -1,3 +1,10 @@
 #What is Computer Vision?
 A simulation of eyes; use to interpret images
 
+#Perception - from light to sight
+-What is light?
+Electromagnetic radiation (EMR) moving along rays in space
+R(λ) is EMR, measured in units of power (watts)
+
+#Plenoptic Function
+We can describe all of the light in the scene by specifying the radiation (or “radiance” along all light rays) arriving at every point in space and from every direction
