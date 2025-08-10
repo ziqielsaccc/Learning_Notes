@@ -8,3 +8,28 @@ R(λ) is EMR, measured in units of power (watts)
 
 #Plenoptic Function
 We can describe all of the light in the scene by specifying the radiation (or “radiance” along all light rays) arriving at every point in space and from every direction
+
+#Camera response function ？？？
+
+#sRGB
+-industry standard encoding of colors for most cameras, printers, displays, etc.  Most images are encoded as sRGB.
+-To convert from sRGB to linear-RGB, a gamma function is applied to each color component x of each pixel (assuming the values are normalized [0,1] rather than [0,255]): f(x) = x^2.2
+-You often want to convert to linear before you process an image and then convert back to sRGB f(x) = x^(1/2.2)
+
+#Signal to Noise Ratio (SNR)
+You want as much light as you can get
+Some strategies:
+-Bigger sensors
+-Larger fill factor
+-Minimize off time (shutters)
+-Long exposures (HDR)
+
+#CMOS？？？
+
+#Nyquist
+To avoid aliasing
+≥ two samples per cycle
+-This minimum sampling rate is called the Nyquist rate
+
+#Cross-correlation filtering？？
+
