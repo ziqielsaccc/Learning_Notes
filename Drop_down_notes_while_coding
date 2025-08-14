@@ -1,3 +1,8 @@
 #Face detection
 -Use grayscale version will be more acurate than original image
 eg: faces = face_cascade.detectMultiScale(convert_gray, scaleFactor=1.1, minNeighbors=3)
+
+#Indentation
+-when code shows error, check whether it's indentation error 
+like missing a space for "break" 
+or what should run in a loop isn't included in the loop (Camera Assistant project)
