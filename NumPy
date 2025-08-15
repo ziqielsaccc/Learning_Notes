@@ -1,0 +1,17 @@
+#What is NumPy?
+NumPy (Numerical Python) is a powerful library for numerical computations in Python. It provides support for arrays, matrices, and a collection of mathematical functions.
+
+#Import NumPy
+
+#Array Properties
+
+#Indexing and Slicing
+
+#Array Operations
+
+#Broadcasting
+
+#Random and Linspace
+
+#Matrix Multiplication
+
