@@ -1,0 +1,29 @@
+#Import libraries you need
+import numpy as np
+import matplotlib.pyplot as plt
+from PIL import Image
+
+#Load and Display Image
+img = Image.open('')
+img_np = np.array(img)
+plt.imshow(img_np)
+plt.title('Original Image')
+plt.axis('off')
+plt.show()
+
+#Grayscale Conversion using Luminance
+
+#Thresholding
+
+#Image Rotation (90 degrees clockwise)
+
+#Resize with Nearest Neighbor
+
+#Edge Detection using Sobel Filter
+
+#Saving Processed Images
+
+#RGB to HSV Conversion
+
+#Gaussian Blur from Scratch
+
